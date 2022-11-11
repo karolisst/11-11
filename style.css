@@ -1,0 +1,33 @@
+.flexbox {
+    background-color: rgba(220, 220, 220, 0.641);
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flexbox div:first-child {
+    background-color: rgba(255, 0, 0, 0.53);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.flexbox div:nth-child(2) {
+    background-color: rgba(0, 0, 255, 0.544);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.flexbox div:last-child {
+    background-color: rgba(255, 255, 0, 0.514);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
